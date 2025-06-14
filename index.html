@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+</head>
+<body>
+  <section id="header">
+    <div class="navbar">
+      <div class="logo"><span class="caps">S</span>ankari.<i class="fa-solid fa-leaf"></i></div>
+      <div id="sidemenu">
+        <i class="fa-solid fa-xmark" onclick="closemenu()" id="closeBtn"></i>
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li> 
+      </ul>  
+      </div>
+      <i class="fa-solid fa-bars" onclick="openmenu()" id="openBtn"></i> 
+    </div>
+    <div class="header-text">
+      <div class="content">
+      <h2>Hi,</h2>
+      <h2>I am <span class="caps">Sankari</span></h2>
+      <h3>A Front-End-Developer.</h3>
+      <div class="download">
+      <p><a href="images/cv.doc" download>Download CV</a></p>
+      <p><a href="images/cover.docx" download>Cover Letter</a></p>
+     </div>
+    </div>
+    <div><img src="images/sankari.jpg" alt="art"></div>
+    </div>
+    </section>
+  <section id="about">
+      <div class="row">
+        <div class="about-col-1"><img src="images/sankari.jpg" alt="art"></div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p class="about-para">I am Sankari from Vellore and I have experience in Front-End-Developer and converting design files into eBooks, Journals/Books and Creating Templates.</p>
+          <div class="table-tit">
+            <p class="table-head active-link" onclick="clicktab('skills')">Skills</p>
+            <p class="table-head" onclick="clicktab('exp')">Experience</p>
+            <p class="table-head" onclick="clicktab('edu')">Education</p>
+          </div>
+          <div class="table-contents active-table" id="skills">
+              <div class="about-skills">
+                <h3 class="sub-title">HTML5/CSS3</h3>
+                <div class="progress-bar"><div class="html"><span>75%</span></div></div>
+              <div class="about-skills">
+                <h3 class="sub-title">JavaScript/JQuery</h3>
+                <div class="progress-bar"><div class="jsq"><span>60%</span></div></div>
+              </div>
+              <div class="about-skills">
+                <h3 class="sub-title">SCSS/Tailwind CSS/Bootstrap</h3>
+                <div class="progress-bar"><div class="scss"><span>65%</span></div></div>
+              </div>
+              <div class="about-skills">
+                <h3 class="sub-title">Angular/React</h3>
+                <div class="progress-bar"><div class="angular" title="Fresher"><span>Fr</span></div></div>
+              </div>
+              </div>
+          </div>
+          <div class="table-contents" id="exp">
+            <ul>
+              <li><span><strong>Sep. 2023 - Apr. 2024</strong><br><em>Web Developer at Strawberry Infotech Pvt. Ltd.,<br><b>Client Location:</b> MPS Limited., Bangalore.</em></span></li>
+              <li><span><strong>Apr. 2017 -  May 2023</strong><br><em>Process Executive at KPR's DataTech, Chennai.</em></span></li>
+              <li><span><strong>Dec. 2014 - Apr. 2015</strong><br><em>Document Specialist at GEM Software Solutions Ltd.,<br><b>Client Location:</b>RRD, Chennai.</em></span></li>
+              <li><span><strong>Mar. 2013 - Jan. 2014</strong><br><em>Company trainee at SL Lumax Ltd., Chennai.</em></span></li>
+            </ul>
+          </div>
+          <div class="table-contents" id="edu">
+            <ul>
+              <li><span><strong>2009 - 2012</strong><br><em>B.E - ECE from Adhiparasakthi College of Engineering with <strong>75.3%.</strong></em></span></li>
+              <li><span><strong>2008</strong><br><em>HSC from Govt. Hr. Sec. SChool with <strong>86%.</strong></em></span></li>
+              <li><span><strong>2006</strong><br><em>SSLC from Govt. Hr. Sec. SChool with <strong>90.2%.</strong></em></span></li>
+            </ul>
+          </div>
+      </div>
+      </div>
+  </section>
+<section id="projects">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="project-list">
+      <div class="project">
+       <img src="images/project.jpg" alt="art"/>
+       <div class="project-content">
+        <h3>Responsive Web Design</h3>
+        <p class="para">Mini Projects</p>
+        <a href="" title="responsive design"><i class="fa-brands fa-readme"></i></a>
+       </div>
+      </div>
+    <div class="project">
+      <img src="images/project.jpg" alt="art"/>
+      <div class="project-content">
+        <h3>Portfolio</h3>
+        <p class="para">Portfolio</p>
+        <a href="" title="portfolio"><i class="fa-brands fa-readme"></i></a>
+       </div>
+    </div>
+    <div class="project">
+      <img src="images/project.jpg" alt="art"/>
+      <div class="project-content">
+        <h3>Web Application</h3>
+        <p class="project-para">ECommerce website | Single page web application</p>
+        <a href="https://sankari2705.github.io/eCommerce/"><i class="fa-brands fa-readme"></i></a>
+       </div>
+    </div>
+  </div>
+  <a href="#" class="project-botton">See more</a>
+</section>
+<section id="contact">
+    <div class="contact-information">
+    <div class="contact-information-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <div class="contact-info-1">
+        <p class="contact-para"><i class="fa-sharp fa-solid fa-envelope"></i> <a href="mailto:sankaridhakshna@gmail.com">sankaridhakshna@gmail.com</a></p>
+        </div>
+        <div class="contact-info-2">
+          <p class="contact-para"><i class="fa-duotone fa-solid fa-phone"></i> <a href="#">Ph:+91-9566331020</a></p>
+          </div>
+      </div>
+      <div class="contact-information-right">
+        <form>
+          <input class="input-area" type="text" name="name" placeholder="Your Name" required>
+          <input class="input-area" type="email" name="email" placeholder="Your Email" required>
+          <textarea class="input-area" type="message" rows="5" placeholder="Your Message"></textarea>
+          <button class="contact-submit" type="submit">Submit</button>
+        </form>  
+      </div>
+    </div>
+</section>
+<button id="scroll"><i class="fa-solid fa-angle-up"></i></button>
+<script src="main.js"></script>
+</body>
+</html>
