@@ -16,8 +16,7 @@
       <ul>
         <li><a href="#header">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li> 
+        <li><a href="#projects">Projects</a></li> 
       </ul>  
       </div>
       <i class="fa-solid fa-bars" onclick="openmenu()" id="openBtn"></i> 
@@ -28,7 +27,7 @@
       <h2>I am <span class="caps">Sankari</span></h2>
       <h3>A Front-End-Developer.</h3>
       <div class="download">
-      <p><a href="images/cv.doc" download>Download CV</a></p>
+      <p><a href="images/cv.pdf" download>Download CV</a></p>
       <p><a href="images/cover.docx" download>Cover Letter</a></p>
      </div>
     </div>
@@ -40,12 +39,14 @@
         <div class="about-col-1"><img src="images/sankari.jpg" alt="art"></div>
         <div class="about-col-2">
           <h1 class="sub-title">About Me</h1>
-          <p class="about-para">I am Sankari from Vellore and I have experience in Front-End-Developer and converting design files into eBooks, Journals/Books and Creating Templates.</p>
+          <p class="about-para">I'm a Frontend DEveloper with a strong foundation in web technologies and a background in digital publishing. After 5+ years of working with XML/ePub/Web design, I've shifted my focus to building responsive and interactive websites. I've completed hands-on training in modern fromnt-end tools like HTML5, CSS3, TailwindCss, Bootstrap,<span class="dots">...</span> <span class="more-text"> JavaScript, jQuery, Angular(beginner) and React(beginner). I'm currently looking for oppertunities to grow as a front-end developer and contribute to meaningful projects that make an impact.</span></p>
+          <button id="see-more">Read More</button>
           <div class="table-tit">
             <p class="table-head active-link" onclick="clicktab('skills')">Skills</p>
             <p class="table-head" onclick="clicktab('exp')">Experience</p>
             <p class="table-head" onclick="clicktab('edu')">Education</p>
           </div>
+          <div class="table-content-list">
           <div class="table-contents active-table" id="skills">
               <div class="about-skills">
                 <h3 class="sub-title">HTML5/CSS3</h3>
@@ -79,10 +80,11 @@
               <li><span><strong>2006</strong><br><em>SSLC from Govt. Hr. Sec. SChool with <strong>90.2%.</strong></em></span></li>
             </ul>
           </div>
+        </div>
       </div>
-      </div>
+    </div>
   </section>
-<section id="projects">
+  <section id="projects">
     <h1 class="sub-title">My Projects</h1>
     <div class="project-list">
       <div class="project">
@@ -109,30 +111,17 @@
         <a href="https://sankari2705.github.io/eCommerce/"><i class="fa-brands fa-readme"></i></a>
        </div>
     </div>
-  </div>
-  <a href="#" class="project-botton">See more</a>
-</section>
-<section id="contact">
-    <div class="contact-information">
-    <div class="contact-information-left">
-      <h1 class="sub-title">Contact Me</h1>
-      <div class="contact-info-1">
-        <p class="contact-para"><i class="fa-sharp fa-solid fa-envelope"></i> <a href="mailto:sankaridhakshna@gmail.com">sankaridhakshna@gmail.com</a></p>
-        </div>
-        <div class="contact-info-2">
-          <p class="contact-para"><i class="fa-duotone fa-solid fa-phone"></i> <a href="#">Ph:+91-9566331020</a></p>
-          </div>
-      </div>
-      <div class="contact-information-right">
-        <form>
-          <input class="input-area" type="text" name="name" placeholder="Your Name" required>
-          <input class="input-area" type="email" name="email" placeholder="Your Email" required>
-          <textarea class="input-area" type="message" rows="5" placeholder="Your Message"></textarea>
-          <button class="contact-submit" type="submit">Submit</button>
-        </form>  
-      </div>
+    <div class="project">
+      <img src="images/project.jpg" alt="art"/>
+      <div class="project-content">
+        <h3>Web Application</h3>
+        <p class="project-para">ECommerce website | Single page web application</p>
+        <a href="https://sankari2705.github.io/eCommerce/"><i class="fa-brands fa-readme"></i></a>
+       </div>
     </div>
-</section>
+  </div>
+  <button class="project-botton" onClick="seeMore()">See more</button>
+  </section>
 <button id="scroll"><i class="fa-solid fa-angle-up"></i></button>
 <script src="main.js"></script>
 </body>
