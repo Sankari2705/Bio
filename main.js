@@ -61,4 +61,3 @@ if(currentItem >= itemToShow.lenth){
 }
 }
 seeMore();
-

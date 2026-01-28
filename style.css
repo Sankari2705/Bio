@@ -145,6 +145,7 @@ span.caps {
 .content h3 {
   margin-top: 10px;
   margin-bottom: 15%;
+  font-size: 20px;
 }
 
 .header-text img {
@@ -360,7 +361,7 @@ div.angular {
 
 @keyframes angular {
   100% {
-    width: 0%;
+    width: 50%;
   }
 }
 
